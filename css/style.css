@@ -1,0 +1,55 @@
+body{
+    background-color: orange;
+}
+p{
+    font-size: 50px;
+    background-color: #800020;
+    color: aliceblue;
+    display: inline;
+}
+ul li{
+    background-color: #800020;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 100px;
+    border: 3px dashed green;
+}
+ul li:hover{
+    background-color: purple;
+    border: 3px double green;
+}
+#d1{
+    background-color: #800020;
+    font-size: 50px;
+    width: 1000px;
+    height: 700px;
+    margin-bottom: 50px;
+    border-width: 20px;
+    border-style: dashed ridge;
+    border-color: blue yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d2{
+    width: 500px;
+    height: 600px;
+    background-color: #800020;
+    border-width: 20px;
+    border-style: dashed ridge dotted double;
+    padding: 50px;
+}
+
+#d3, #d4{
+    width: 700px;
+    height: 250px;
+    background-color: #0f8000;
+    margin: 50px;
+    font-size: 24px;
+    padding: 50px;
+}
+header{
+    margin-top: 250px;
+}
